@@ -1,0 +1,35 @@
+Массив
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {9, 99, 999}; // массив
+
+        System.out.print("Массив: ");
+        for (int x : arr) {
+            System.out.print(x + " ");
+        }
+    }
+}
+
+
+
+и Стэк
+
+
+
+import java.util.Stack;
+
+public class Main {
+    public static void main(String[] args) {
+        Stack<Integer> st = new Stack<>(); // стек
+
+        st.push(9);
+        st.push(99);
+        st.push(999);
+
+        System.out.print("Стек (сверху вниз): ");
+        while (!st.isEmpty()) {
+            System.out.print(st.peek() + " "); // показываем верхний
+            st.pop();                         // убираем верхний
+        }
+    }
+}

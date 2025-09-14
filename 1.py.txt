@@ -1,0 +1,9 @@
+#Создам список 
+arr=list()
+#Создадим стэк состоящий из '9' '99' '999'
+stac=list()
+stac.append(9)
+stac.append(99)
+stac.append(999)
+
+print(stac)
